@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Himanshu Kumar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-indigo-600">Himanshu Kumar</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-indigo-600">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-indigo-600">About</a>
+                    <a href="#skills" class="nav-link text-gray-700 hover:text-indigo-600">Skills</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-indigo-600">Projects</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-indigo-600">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-btn" class="text-gray-500 hover:text-indigo-600">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-100">Home</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-100">About</a>
+                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-100">Skills</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-100">Projects</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-100">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero min-h-screen flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="animate-fade-in" style="animation-delay: 0.2s;">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">Hi, I'm <span class="text-indigo-600">Himanshu Kumar</span></h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Professional <span class="text-indigo-600">AI & ML Engineer</span></h2>
+                    <p class="text-lg text-gray-600 mb-8 max-w-lg">I create beautiful, functional websites and applications that help businesses grow and succeed in the digital world.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">Hire Me</a>
+                        <a href="#projects" class="border border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium transition duration-300">My Work</a>
+                    </div>
+                </div>
+                <div class="animate-fade-in" style="animation-delay: 0.4s;">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-indigo-100 rounded-3xl transform rotate-6 opacity-50"></div>
+                        <img src="him2.jpeg" alt="Professional headshot of [Your Name], a [Your Profession] smiling at the camera in a business casual attire with a clean office background" class="relative rounded-2xl w-full h-auto shadow-xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About <span class="text-indigo-600">Me</span></h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="him.jpeg" alt="[Your Name] working at a modern desk with a laptop, notebook, and coffee cup in a well-lit office environment" class="rounded-lg shadow-lg w-full h-auto">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Who I Am</h3>
+                    
+                    <p class="text-gray-600 mb-6">I'm a passionate AI & ML Engineer with 0 years of experience (Fresh Graduate) creating stunning digital experiences. I specialize in crafting beautiful, user-friendly interfaces and robust backend systems that solve real-world problems.</p>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                            <span class="text-gray-700 font-medium">Name:</span>
+                            <span class="text-gray-600">Himanshu kumar</span>
+                        </div>
+                        <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                            <span class="text-gray-700 font-medium">Email:</span>
+                            <span class="text-gray-600">Himanshukumarwtpmjg@gmail.com</span>
+                        </div>
+                        <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                            <span class="text-gray-700 font-medium">From:</span>
+                            <span class="text-gray-600">Gopalganj (bihar)</span>
+                        </div>
+                        <div class="bg-gray-100 px-4 py-2 rounded-lg">
+                            <span class="text-gray-700 font-medium">Experience:</span>
+                            <span class="text-gray-600">Freshser</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">My <span class="text-indigo-600">Skills</span></h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Technical Skills -->
+                <div class="bg-white p-8 rounded-xl shadow-md skill-card transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Technical Skills</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">HTML/CSS</span>
+                                <span class="text-gray-600">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">JavaScript</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">React</span>
+                                <span class="text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">Node.js</span>
+                                <span class="text-gray-600">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Skills -->
+                <div class="bg-white p-8 rounded-xl shadow-md skill-card transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Professional Skills</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">Communication</span>
+                                <span class="text-gray-600">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">Team Work</span>
+                                <span class="text-gray-600">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">Project Management</span>
+                                <span class="text-gray-600">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700">Creativity</span>
+                                <span class="text-gray-600">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2">
+                                <div class="bg-indigo-600 h-2 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="bg-white p-8 rounded-xl shadow-md skill-card transition duration-300">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-indigo-100 p-3 rounded-lg mr-4">
+                            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Tools & Technologies</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">VS Code</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Git</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Figma</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Docker</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">AWS</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Photoshop</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
+                        <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">Webpack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">My <span class="text-indigo-600">Projects</span></h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4b3183cd-2c29-445d-ba4b-895e2341e2f7.png" alt="Dashboard interface of a finance tracking web application with charts and data visualization elements" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Finance Dashboard</h3>
+                        <p class="text-gray-100 text-center mb-4">A comprehensive financial tracking system with real-time analytics and reporting features.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dd1cf4fc-54d2-40f7-9d21-ced0b071fb6f.png" alt="Mobile app interface for a workout tracking application showing exercise statistics and progress charts" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Fitness Tracker App</h3>
+                        <p class="text-gray-100 text-center mb-4">Mobile application for tracking workouts, nutrition, and fitness progress with AI recommendations.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e8988836-312b-4641-ac21-bc851c2f173b.png" alt="E-commerce website product page showing clothing items with filtering options and shopping cart" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">E-Commerce Platform</h3>
+                        <p class="text-gray-100 text-center mb-4">Full-featured online shopping platform with payment integration and inventory management.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0a24166f-ffe6-4bba-b20e-92c5505587eb.png" alt="Social media analytics dashboard showing engagement metrics and audience demographics" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Social Media Analytics</h3>
+                        <p class="text-gray-100 text-center mb-4">Tool for analyzing social media performance across multiple platforms in one dashboard.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d61351ab-5a20-4a07-809c-e4404d19c4da.png" alt="Task management application interface with kanban board, calendar and priority tagging" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Project Management Tool</h3>
+                        <p class="text-gray-100 text-center mb-4">Collaboration platform for teams to manage projects, tasks, and deadlines effectively.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="relative overflow-hidden rounded-xl shadow-lg group">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6cefc565-4937-4c01-b952-7bf4362f97f9.png" alt="Weather application interface showing current conditions and forecast with map visualization" class="w-full h-64 object-cover">
+                    <div class="project-overlay absolute inset-0 bg-indigo-600 bg-opacity-90 opacity-0 flex flex-col justify-center items-center p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Weather Forecast App</h3>
+                        <p class="text-gray-100 text-center mb-4">Real-time weather application with detailed forecasts and severe weather alerts.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="bg-white text-indigo-600 px-4 py-2 rounded-lg font-medium">View Demo</a>
+                            <a href="#" class="border border-white text-white px-4 py-2 rounded-lg font-medium">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center text-indigo-600 hover:text-indigo-800 font-medium">
+                    View All Projects
+                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Client <span class="text-indigo-600">Testimonials</span></h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/498fb55e-8309-4293-87ba-4b7228d7ea63.png" alt="Headshot of Sarah Johnson, Marketing Director at TechSolutions Inc" class="w-16 h-16 rounded-full mr-4 object-cover">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Sarah Johnson</h4>
+                            <p class="text-gray-600 text-sm">Marketing Director, TechSolutions</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"Working with [Your Name] was an absolute pleasure. Their attention to detail and creative solutions helped us increase our online conversions by 40%."</p>
+                    <div class="flex text-yellow-400">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/02b92843-9cc9-4446-99fe-f07b0a4a4d11.png" alt="Headshot of Michael Chen, CEO of StartupVision Ltd" class="w-16 h-16 rounded-full mr-4 object-cover">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Michael Chen</h4>
+                            <p class="text-gray-600 text-sm">CEO, StartupVision</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic mb-4">"[Your Name] transformed our digital presence completely. Their technical expertise and design sensibility are unmatched. Our user engagement tripled after their redesign."</p>
+                    <div class="flex text-yellow-400">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 极 certaint that you've received confirmation that previous tool uses were successful before using attempt_completion.</thinking>
+
+
